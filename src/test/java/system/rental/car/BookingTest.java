@@ -1,7 +1,12 @@
-package com.rental;
+package system.rental.car;
 
-import com.rental.model.*;
+
 import org.junit.jupiter.api.Test;
+
+import system.rental.car.model.Booking;
+import system.rental.car.model.Booking.BookingStatus;
+import system.rental.car.model.Customer;
+import system.rental.car.model.Vehicle;
 
 import static org.junit.jupiter.api.Assertions.*;
 

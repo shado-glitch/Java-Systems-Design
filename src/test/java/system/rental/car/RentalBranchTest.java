@@ -1,10 +1,15 @@
-package com.rental;
+package system.rental.car;
 
-import com.rental.model.*;
-import com.rental.service.EconomyBranch;
-import com.rental.service.RentalBranch;
+
 
 import org.junit.jupiter.api.Test;
+
+import system.rental.car.model.Booking;
+import system.rental.car.model.Booking.BookingStatus;
+import system.rental.car.model.Customer;
+import system.rental.car.model.Vehicle;
+import system.rental.car.service.EconomyBranch;
+import system.rental.car.service.RentalBranch;
 
 import static org.junit.jupiter.api.Assertions.*;
 
